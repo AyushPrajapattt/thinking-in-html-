@@ -1,0 +1,30 @@
+BSERC GENERATIVE AI INTERNSHIP — PROJECT 2: THINKING IN HTML
+Author: Ayush Prajapat
+
+Record of prompts used to build and refine each standalone page.
+The files use sample/demo data and do not call external APIs.
+
+PAGE 1 — ai-study-dashboard.html
+1. Build a responsive standalone HTML study dashboard for a student learning Generative AI. Include an eight-module checklist with live progress, localStorage persistence and reset, a focus timer with start/pause/reset and duration selection, six flip cards with previous/next, and a five-question scored quiz with feedback and restart. Embed all CSS and JavaScript. Use accessible controls, keyboard support and mobile layout. No frameworks or external dependencies.
+2. Review the checklist, progress calculations, localStorage, timer interval handling, flashcard navigation and quiz answer locking. Fix issues while preserving all features and the single-file requirement.
+3. Improve phone layout, typography, focus visibility, accessible quiz feedback and keyboard interaction. Prevent horizontal overflow.
+4. Perform final code review for broken IDs, missing elements, event-handler errors and direct local-file operation. Ensure all controls work without a server or network.
+
+PAGE 2 — ai-tool-decision-helper.html
+1. Build a responsive standalone AI Tool Decision Helper. Include five priority sliders with live values, a use-case filter, search field, weighted live ranking, reset and clear-filter controls, tool cards and a comparison table. Use clearly labelled illustrative sample profiles, not official benchmarks. Embed all CSS and JavaScript; no APIs or libraries.
+2. Review weighted scoring and interactions. Ensure sliders immediately update values and rankings, filters work together, empty results are handled, and reset restores defaults.
+3. Improve mobile responsiveness, keyboard access, focus styles, contrast and table overflow.
+4. Check selectors, event listeners, score calculation and all controls. Ensure the page opens locally with no external dependencies.
+
+PAGE 3 — interactive-genai-presentation.html
+1. Create a standalone nine-slide interactive presentation about Generative AI: title, definition, tokens/embeddings, Transformer attention, LLM generation, prompt engineering, RAG, agents/multimodal AI, responsible use and quiz. Include previous/next navigation, arrow-key navigation, slide counter/progress dots, token-length slider, prompt-example selector, visual chart and scored quiz with feedback/retry. Use inline CSS and JavaScript only.
+2. Review slide navigation, boundary states, progress indicators, slider, prompt selector and quiz scoring/retry.
+3. Improve mobile layout, readability, focus styles, reduced-motion support and accessible quiz feedback.
+4. Inspect slide count, IDs, handlers and quiz answer locking. Confirm local-file operation without a server or network.
+
+TESTING RECORD — COMPLETE BEFORE SUBMISSION
+Round 1: Open each HTML file and test every visible control. Record issues and the exact prompt used to fix them.
+Round 2: Test each page at a narrow phone viewport and a laptop viewport. Record layout issues and fixes.
+Round 3: Repeat all interaction tests after fixes. Record final result and any remaining limitations.
+
+Important: The tool comparison uses illustrative demo scores, not current product ratings. The pages must still be manually tested on your own laptop and phone before submission. Add any extra prompts you use during manual testing below.
